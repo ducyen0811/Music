@@ -1,0 +1,57 @@
+/* Example of what the CSS might look like */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .player__container {
+    background-color: #000;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .player__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .body__cover img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .list__link {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .range {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    margin-top: 10px;
+  }
+  
+  .body__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .player__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
